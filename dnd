@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require './logger.rb'
+require './dice.rb'
+require './wizard.rb'
+require './enemy.rb'
+require './kye.rb'
+
+w = Kye.new
+glarg = Enemy.new('Glarg', 14, 45)
+w.magic_missile([glarg], 1, 1)
+w.charm_person([glarg], 8, 1)
+w.witch_bolt(glarg, 10, 1)
+w.witch_bolt_resume(glarg, 10, 1, 12, true)  #w.concentration(false, 0, false))
+puts glarg
+
