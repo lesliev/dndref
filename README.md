@@ -9,8 +9,8 @@ Dungeons and Dragons rules, written in Ruby!
 2. The official rules refer to other rules which refer to other rules, which make them slow to consult
   during gameplay. Ruby methods also refer to other methods but are very quick to traverse if you have a
   decent editor like RubyMine.
-3. The 5th edition player's handbook doesn't have an index and information is spread over many locations,
-  text search on a computer is instant.
+3. The 5th edition player's handbook's information is spread over many locations, text search
+  on a computer is instant.
 
 Mostly this is about speed, which is vital if you want your game to flow, particularly when everyone
 is first learning the game. So if you know Ruby, this should be quicker and easier to read than the english rules.
