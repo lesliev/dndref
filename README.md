@@ -13,9 +13,7 @@ Dungeons and Dragons rules, written in Ruby!
   text search on a computer is instant.
 
 Mostly this is about speed, which is vital if you want your game to flow, particularly when everyone
-is first learning the game. Sure, you need to understand Ruby but if you don't, Ruby is easy to learn
-and you only need to understand a small subset of the language.
-
+is first learning the game. So if you know Ruby, this should be quicker and easier to read than the english rules.
 
 ### Why bother with syntax?
 
